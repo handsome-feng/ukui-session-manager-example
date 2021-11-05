@@ -185,6 +185,7 @@ int main(int argc, char **argv)
 {
     qDebug() << "V1.0.1 release";
     qDebug() << "Do something";
+    qDebug() << "V1.0.2 release";
     qInstallMessageHandler(myMessageOutput);
     //initUkuiLog4qt("ukui-session");
     qDebug() << "---------------------------------------------------------UKUI session manager start.---------------------------------------------------------";
